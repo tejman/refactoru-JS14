@@ -1,0 +1,49 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.map{
+  width: 1170px;
+  z-index: 999;
+}
+
+.new-loc {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+}
+
+.pot {
+  width: 26px;
+}
+
+.note {
+  width: 200px;
+  margin: 0;
+  position: absolute;
+}
+
+.add-note{
+  width: 200px;
+  margin: 0;
+  display: none;
+}
+
+.note-text {
+  margin: 0;
+  display: none;
+  font-style: italic;
+  font-size: 12px;
+  background-color: yellow;
+  padding: 2px;
+}
